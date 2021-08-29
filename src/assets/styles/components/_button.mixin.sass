@@ -1,0 +1,14 @@
+@mixin button($padding-y, $padding-x, $border-radius, $background, $background-hover)
+  padding: $padding-y $padding-x
+  background: $background
+  border-radius: $border-radius
+  color: #fff
+  opacity: 1
+  transition: background .2s
+  font-weight: 600
+  letter-spacing: 1px
+  line-height: 24px
+  border: none
+
+  &:hover
+    background: $background-hover
